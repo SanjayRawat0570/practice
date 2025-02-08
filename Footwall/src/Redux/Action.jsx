@@ -1,9 +1,14 @@
-import React from 'react'
-
-function Action() {
-  return (
-    <div>Action</div>
-  )
+export const getMatches=()=>{
+    return {type: "GET_MATCHES"};
+}
+export const getMatchSuccess=(data)=>{
+    return {type: "GET_MATCHES_SUCCESS", payload: data};
 }
 
-export default Action
+
+export const getMatchFailure=()=>{
+    return {type: "GET_MATCHES_FAILURE"};
+}
+export const filterByTeamName=()=>{
+    return {type: "FILTER_BY_TEAM_NAME"};
+}
