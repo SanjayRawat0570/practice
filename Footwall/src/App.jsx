@@ -10,7 +10,7 @@ function App() {
     <>
       <Provider store={Store}>
         <Matches/>
-        {/* <FilterMatches/> */}
+        
         <MatchesList/>
       </Provider>
     </>
