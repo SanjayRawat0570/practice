@@ -10,7 +10,7 @@ const SearchBar = ({ setMovies }) => {
   return (
     <div>
       <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search movies..." />
-      <button onClick={searchMovies}>Search</button>
+      <button onClick={searchMovies}>Searc</button>
     </div>
   );
 };
