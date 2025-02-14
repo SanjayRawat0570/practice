@@ -1,4 +1,4 @@
-import React from 'react';
+import react from 'react';
 import { useDispatch } from 'react-redux';
 import { addMovie } from '../redux/actions/movieActions';
 
