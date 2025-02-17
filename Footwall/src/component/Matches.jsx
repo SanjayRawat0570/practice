@@ -19,4 +19,4 @@ function Matches() {
   )
 }
 
-export default 
+export default Matches
