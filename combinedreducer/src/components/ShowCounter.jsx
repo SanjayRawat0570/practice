@@ -4,7 +4,7 @@ import { decrement, increment } from '../redux/actions'
 
 export default function ShowCounter() {
     const state = useSelector(state=>state)
-    const dispatch = useDispatch()
+    
   return (
     <div>
         <button onClick={()=>dispatch(increment())}>increment </button>
