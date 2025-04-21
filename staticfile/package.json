@@ -1,0 +1,12 @@
+{
+  "name": "node-static-server",
+  "version": "1.0.0",
+  "description": "A basic static file server using core Node.js modules",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Sanjay Rawat",
+  "license": "MIT"
+}
+
